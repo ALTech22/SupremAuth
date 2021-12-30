@@ -1,0 +1,19 @@
+name: SupremAUTH
+main: main.java.br.alsupreme.andrey.auth.SupremAuth
+version: '0.1'
+api-version: 1.16
+description: My plugin
+load: STARTUP
+author: Andrey
+prefix: SAUTH
+
+commands:
+  register:
+    description: this is a test
+    usage: /<command>
+  login:
+    description: login
+    usage: /<command>
+  change:
+    description: changes the email
+    usage: /<command>

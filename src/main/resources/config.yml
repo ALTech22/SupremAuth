@@ -1,0 +1,17 @@
+lang: en_us
+database:
+  #can be mysql or sqlite
+  sgbd: 'mysql'
+  mysql:
+   ip: 'localhost'
+   db: 'SupremAuth'
+   user: 'root'
+   password: 'andrey'
+  sqlite:
+   filename: 'serverdata.db'
+  
+login_required_email: false
+
+#If you are changing this after start the server and the players join, can have a incompatibility of player's password, is need a update in password datas on the database
+#It only works with mysql
+encrypt: true
